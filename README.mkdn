@@ -1,0 +1,11 @@
+Raspberry PI Sensors v1.0.0
+====================================
+
+### Download RPI-Sensors ###
+```bash
+    $  git clone https://github.com/RolanDroid/RPI-Sensors rpi
+```
+### Use RPI-Sensors ###
+```bash
+    $  . rpi/rpi-sensors.sh
+```
