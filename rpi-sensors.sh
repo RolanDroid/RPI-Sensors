@@ -17,13 +17,13 @@ cpuTempM=$(($cpuTemp2 % $cpuTemp1))
 
 # GPU Sensors
 gpuTemp0=$(/opt/vc/bin/vcgencmd measure_temp)
-gpuTemp0=${gpuTemp0//\'/º}
+gpuTemp0=${gpuTemp0//\'/}
 gpuTemp0=${gpuTemp0//temp=/}
 
 echo "${bldcya}================================================================${txtrst}"
 echo "${bldgrn}=================Welcome in RaspBerry PI Sensors================${txtrst}"
 echo "${bldcya}================================================================${txtrst}"
-echo "${bldred}CPU Temp: $cpuTemp1"."$cpuTempM"ºC"${txtrst}"
+echo "${bldred}CPU Temp: $cpuTemp1"."$cpuTempM"C"${txtrst}"
 echo "${bldred}GPU Temp: $gpuTemp0${txtrst}"
 echo "${bldgrn}================================================================${txtrst}"
 echo "${bldmag}Thanks for use RPI-Sensors,Good bye${txtrst}"
