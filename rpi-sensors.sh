@@ -26,8 +26,6 @@ echo "${bldcya}================================================================$
 echo "${bldred}CPU Temp: $cpuTemp1"."$cpuTempM"ºC"${txtrst}"
 echo "${bldred}GPU Temp: $gpuTemp0${txtrst}"
 echo "${bldgrn}================================================================${txtrst}"
-echo "${bldmag}Thanks for use RPI-Sensors,Good bye${txtrst}"
-echo "${bldgrn}================================================================${txtrst}"
 
 read -p "Press [Enter] key to refresh..."
 clear && . rpi/rpi-sensors.sh 
